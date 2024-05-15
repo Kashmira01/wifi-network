@@ -111,10 +111,9 @@ label {
 
 
     .image-section img {
-        max-width: 270px;
-       
+        max-width: 300px;
+        margin-top: -20px;
     }
-
 
     button {
         padding: 5px;
