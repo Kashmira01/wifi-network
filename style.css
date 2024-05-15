@@ -1,0 +1,146 @@
+body {
+    background-color: #473a41;
+    color: #fff;
+    font-family: 'Cormorant', serif;
+}
+
+.container {
+    display: flex;
+    background: #fff8f5;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.form-section {
+
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Consistent gap between form elements */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* Rounded borders for input fields */
+    width: 100%;
+    /* Fixed width for inputs */
+    background-color: #e3b8a0;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #b66c43;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #362f35;
+    /* Slightly darker plum on hover */
+}
+
+.image-section img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#image-section {
+
+    padding: 25px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .container {
+        flex-flow: wrap;
+
+    }
+
+    #image-section {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    form {
+        gap: 2px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input[type="text"] {
+        padding: 5px;
+        max-width: 320px;
+        width: 100%;
+    }
+
+
+
+    .image-section img {
+        max-width: 300px;
+        margin-top: -26px;
+    }
+
+    button {
+        padding: 5px;
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    #heading {
+        font-size: 20px !important;
+        margin-top: -20px;
+    }
+}
+
+.flexing-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: #b66c43;
+}
+
+#heading {
+    color: #b66c43;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
